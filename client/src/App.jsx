@@ -4,10 +4,11 @@ import Subscribe from './pages/subscribe'
 import Home from './pages/home'
 import Dashboard from './pages/dashboard'
 import React from 'react'
-
+import Header from './component/header'
 export default function App() {
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
       <Route path = "/"element={<Home />}/>
       <Route path = "/about"element={<About />}/>
