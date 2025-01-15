@@ -6,6 +6,7 @@ import Dashboard from './pages/dashboard'
 import React from 'react'
 import Header from './component/header'
 import SignIn from './pages/signin'
+import SignUp from './pages/signup.jsx'
 export default function App() {
   return (
     <BrowserRouter>
@@ -16,7 +17,7 @@ export default function App() {
       <Route path = "/dashboard"element={<Dashboard />}/>
       <Route path = "/subscribe"element={<Subscribe />}/>
       <Route path = "/signin"element = {<SignIn />}/>
-
+      <Route path = "/signup"element = {<SignUp />}/>
 
     </Routes>
     
