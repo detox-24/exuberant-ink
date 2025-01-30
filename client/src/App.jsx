@@ -7,6 +7,7 @@ import React from 'react'
 import Header from './component/header'
 import SignIn from './pages/signin'
 import SignUp from './pages/signup.jsx'
+import Footer from './component/footer'
 export default function App() {
   return (
     <BrowserRouter>
@@ -20,7 +21,7 @@ export default function App() {
       <Route path = "/signup"element = {<SignUp />}/>
 
     </Routes>
-    
+    <Footer />
     </BrowserRouter>
   )
 }
